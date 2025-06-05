@@ -28,7 +28,7 @@ services:
       - MYSQL_ROOT_PASSWORD=yourpassword  
       - MYSQL_DATABASE=tasks_management  
       - MSQL_USER=root  
-      - FRONTEND="http://localhost:5173"  
+      - FRONTEND=http://localhost:5173
       - JWT_SECRET=secret  
     ports:
       - '3000:3000'
