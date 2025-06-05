@@ -19,7 +19,10 @@
                         <q-btn flat label="LOGIN" color="white bg-primary" class="q-mt-md full-width"
                             style="font-weight: bold;" @click="handleLogin" />
                         <div>
-                            <button @click="googleLogin">Login with Google</button>
+                            <button @click="googleLogin" class="q-mt-md q-mx-auto" style="display: block; background-color: white; border: 1px solid #ccc; border-radius: 5px; padding: 10px; cursor: pointer;">
+                                <img src="src/assets/google.svg" alt="Google" style="width: 32px; height: 32px;" />
+
+                            </button>
                         </div>
 
 

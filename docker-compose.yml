@@ -25,6 +25,11 @@ services:
     environment:
       - PORT=3000
       - DB_HOST=mysql_db
+      - MYSQL_ROOT_PASSWORD=yourpassword  
+      - MYSQL_DATABASE=tasks_management  
+      - MSQL_USER=root  
+      - FRONTEND="http://localhost:5173"  
+      - JWT_SECRET=secret  
     ports:
       - '3000:3000'
     depends_on:
